@@ -1,0 +1,187 @@
+h1 {
+    color: #23285A;
+    width: 40%;
+    margin-top: 3rem;
+    margin-left: 7%;
+}
+
+
+/* number img */
+
+#number {
+    justify-content: center;
+    display: flex;
+}
+
+
+/* List on all forms */
+
+#List {
+    padding: 0;
+    margin: 0;
+}
+
+#List li {
+    min-height: 9rem;
+    font-size: 1.4em;
+    color: white;
+    padding: 1rem;
+}
+
+#List li:nth-child(1) {
+    background-color: #23285A;
+}
+
+#List li:nth-child(2) {
+    background-color: #2A285A
+}
+
+#List li:nth-child(3) {
+    background-color: #3D3D59
+}
+
+#List li:nth-child(4) {
+    background-color: #555658
+}
+
+
+/* text-question*/
+
+#text-question {
+    padding-right: 1rem;
+}
+
+#text-question h5 {
+    color: #23285A;
+    padding-bottom: .5rem;
+    border-bottom: 1.5px solid #23285A;
+    font-size: 1em;
+}
+
+
+/* choise img */
+
+#choise img {
+    min-height: 25rem;
+}
+
+
+/* Description */
+
+#Description {
+    box-sizing: border-box;
+    max-height: 25rem;
+    overflow-y: scroll;
+    background-color: white;
+    border: 1px solid #555658;
+}
+
+#Description ul {
+    padding: .5rem 0;
+    margin: 0;
+}
+
+#Description .steps {
+    padding-left: 1em;
+}
+
+#Description h5,
+#Description h6,
+#Description .level {
+    text-transform: uppercase;
+    color: #555658;
+    margin-bottom: 0;
+}
+
+#Description .level {
+    font-weight: bold;
+}
+
+#Description p {
+    font-size: .8em;
+    color: #555658;
+}
+
+#Description li {
+    border-bottom: 1px solid #555658;
+    padding: .7rem 0 0;
+    margin: 0 1rem;
+}
+
+#Description #L1 h5 {
+    color: #69E556
+}
+
+#Description #L2 h5 {
+    color: #fe9d3d
+}
+
+#Description #L3 h5 {
+    color: #DB3730
+}
+
+
+/*  Frequency */
+
+#frequency h5 {
+    color: #23285A;
+    margin-bottom: 0;
+}
+
+textarea {
+    padding: .5rem;
+    height: 13.5rem;
+}
+
+#continue button {
+    color: white;
+    background: #DB3730;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    padding: .5rem .2rem;
+    font-weight: bold;
+}
+
+#continue button a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+#continue p {
+    color: #DB3730;
+    font-weight: bold;
+}
+
+.col-3 {
+    max-width: 20%;
+    flex: 0 0 20%;
+}
+
+.col-9 {
+    max-width: 80%;
+    flex: 0 0 80%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+input[type='radio'],
+input[type="checkbox"] {
+    width: 1.2em;
+    height: 1.2em;
+}
+
+label {
+    padding-left: 2px;
+    vertical-align: middle;
+}
+
+@media (max-width: 1000px) {
+    #List li {
+        min-height: 15.5rem;
+    }
+}

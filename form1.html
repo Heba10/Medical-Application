@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Medical Application</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 class="mb-3">Pain Screening <br> Form <br></h1>
+
+        <div class="row mb-5">
+            <div class="col-1" id="number"><img src="img/number.png"></div>
+            <div class="col-11 row">
+                <div class="col-3 p-0">
+                    <ul id="List">
+                        <li>Lorem <br> ipsum dolor</li>
+                        <li>Lorem <br> ipsum dolor</li>
+                        <li>Lorem <br> ipsum dolor</li>
+                        <li>Lorem <br> ipsum dolor</li>
+                    </ul>
+                </div>
+                <div id="content" class="col-9 pt-5">
+                    <div class="row mb-4">
+                        <div class="col-lg-2 col-6 d-flex align-items-center" id="text-question">
+                            <h5>Rate your <br> pain intensity <br> on the scale <br>from 0 to 10?</h5>
+                        </div>
+                        <div class="col-lg-2 col-6 row" id="choise">
+                            <form class="col-lg-6 col-4 p-0 mt-4 d-flex flex-column">
+                                <div><input type="radio" value="0" required><label>00</label></div>
+                                <div><input type="radio" value="1" required><label>01</label></div>
+                                <div><input type="radio" value="2" required><label>02</label></div>
+                                <div><input type="radio" value="3" required><label>03</label></div>
+                                <div><input type="radio" value="4" required><label>04</label></div>
+                                <div><input type="radio" value="5" required><label>05</label></div>
+                                <div><input type="radio" value="6" required><label>06</label></div>
+                                <div><input type="radio" value="7" required><label>07</label></div>
+                                <div><input type="radio" value="8" required><label>08</label></div>
+                                <div><input type="radio" value="9" required><label>09</label></div>
+                                <div><input type="radio" value="10" required><label>10</label></div>
+                            </form>
+                            <div class="col-lg-6 col-4 p-0"><img src="img/choise.png"></div>
+                        </div>
+                        <div class="col-lg-4 col-6 p-0">
+                            <div id="Description">
+                                <ul>
+
+                                    <li id="L1">
+                                        <h5>Mild Pain</h5>
+                                        <p>Could be classified into 3 sub-types</p>
+                                    </li>
+                                    <ul class="steps">
+                                        <li>
+                                            <h6>Very Mild</h6>
+                                            <p class="level">Level 1</p>
+                                            <p>Is like a mosquito bite. It is described as very light or barely noticeable pain.</p>
+                                        </li>
+                                        <li>
+                                            <h6>Tolerable</h6>
+                                            <p class="level">Level 2</p>
+                                            <p>Is closely similar to pinching the fold of skin between the thumb and the first finger.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h6>Discomforting</h6>
+                                            <p class="level">Level 3</p>
+                                            <p>Is very noticeable like an injection pain. It is not strong but you cannot get used to it.</p>
+                                        </li>
+                                    </ul>
+
+
+                                    <li id="L2">
+                                        <h5>Moderate Pain</h5>
+                                        <p>It interferes with many activities and require lifestyle changes but the patient remains independent; however, unable to adapt to pain</p>
+                                    </li>
+                                    <ul class="steps">
+                                        <li>
+                                            <h6>Very Mild</h6>
+                                            <p class="level">Level 4</p>
+                                            <p>Is like a mosquito bite. It is described as very light or barely noticeable pain.</p>
+                                        </li>
+                                        <li>
+                                            <h6>Tolerable</h6>
+                                            <p class="level">Level 5</p>
+                                            <p>Is closely similar to pinching the fold of skin between the thumb and the first finger.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h6>Discomforting</h6>
+                                            <p class="level">Level 6</p>
+                                            <p>Is very noticeable like an injection pain. It is not strong but you cannot get used to it.</p>
+                                        </li>
+                                        <li>
+                                            <h6>More Discomforting</h6>
+                                            <p class="level">Level 7</p>
+                                            <p>Is very noticeable like an injection pain. It is not strong but you cannot get used to it.</p>
+                                        </li>
+                                    </ul>
+
+
+                                    <li id="L3">
+                                        <h5>Severe Pain</h5>
+                                        <p>It interferes with many activities and require lifestyle changes but the patient remains independent; however, unable to adapt to pain</p>
+                                    </li>
+                                    <ul class="steps">
+                                        <li>
+                                            <h6>Very Mild</h6>
+                                            <p class="level">Level 8</p>
+                                            <p>Is like a mosquito bite. It is described as very light or barely noticeable pain.</p>
+                                        </li>
+                                        <li>
+                                            <h6>Tolerable</h6>
+                                            <p class="level">Level 9</p>
+                                            <p>Is closely similar to pinching the fold of skin between the thumb and the first finger.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h6>Discomforting</h6>
+                                            <p class="level">Level 10</p>
+                                            <p>Is very noticeable like an injection pain. It is not strong but you cannot get used to it.</p>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-6 d-flex flex-column mt-5" id="frequency">
+                            <h5>PAIN FREQUENCY</h5>
+                            <p>In the past 6 months, what was the frequency of your pain?</p>
+
+
+                            <div class="d-flex flex-column">
+                                <select class="custom-select mb-2" required>
+                                    <option value="OtherMonth" selected>Once every other month</option>
+                                    <option value="Month">Once every month</option>
+                                    <option value="Week">Once every week</option>
+                                    <option value="Day">Once day</option>
+                                </select>
+
+                                <textarea placeholder="if you were not able to capture the pain through the diagram, please specify here.." name="frequency-desc" form="form-1"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex flex-column align-items-end mx-4" id="continue">
+                        <button class="col-4 mb-2" type="submit" disabled>Continue</button>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+
+
+
+</body>
+
+</html>
