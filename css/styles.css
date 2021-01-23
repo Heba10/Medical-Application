@@ -385,7 +385,7 @@ canvas {
     margin-bottom: 1.5rem;
 }
 
-.form-check label {
+.check label {
     padding-left: 10px;
     vertical-align: sub;
 }
