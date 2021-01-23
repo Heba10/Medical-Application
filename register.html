@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Medical Application</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body class="blue">
+
+
+    <div class="container">
+        <div class="row register-form" id="register">
+            <div class="col-lg-3 col-md-4 col-6 mt-5">
+                <img src="img/upper-body.png">
+            </div>
+
+            <div class="col-lg-9 col-md-8 col-6">
+                <p>Please fill out the below information:</p>
+                <form>
+                    <div class="register-input">
+                        <input type="text" name="username" required class="form-control" placeholder="| Username">
+                    </div>
+
+                    <div class="register-input">
+                        <input type="password" required name="password" class="form-control" placeholder="| Password">
+                    </div>
+
+                    <div class="register-input">
+                        <input type="password" required name="passwordConfirmation" class="form-control" placeholder="| Confirm Password">
+                    </div>
+
+                    <div class="register-input date">
+                        <input type="text" required name="birthDate" onfocus="(this.type='date')" onblur="(this.type='text')" class="form-control" placeholder="Birth Date">
+                    </div>
+
+                    <div class="row justify-content-end ">
+                        <button type="submit" class="col-4">Register</button>
+                    </div>
+
+                    <div class="row justify-content-end">
+                        <a href="index.html">Login now</a>
+                    </div>
+
+                </form>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js "></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js "></script>
+
+
+</body>
+
+</html>

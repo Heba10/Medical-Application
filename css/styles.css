@@ -337,3 +337,81 @@ canvas {
     display: inline-block;
     vertical-align: middle;
 }
+
+
+/* register */
+
+.blue {
+    background: url("../img/background.png");
+    background-repeat: no-repeat;
+}
+
+.register-form img {
+    margin-right: 50%;
+    max-width: 100%;
+}
+
+.register-form {
+    margin-left: 24%;
+}
+
+#register {
+    margin-top: 20%;
+}
+
+.register-form p {
+    text-align: center;
+    color: #555658;
+    font-size: 1.2em;
+}
+
+.register-form form input {
+    border-radius: 20px;
+    font-size: 1.2em;
+    background-color: #eee;
+    padding: 1.5rem 1rem;
+}
+
+.register-form form .date input {
+    border-radius: 0;
+}
+
+.date {
+    max-width: 50%;
+    margin-left: 50%;
+}
+
+.register-input {
+    margin-bottom: 1.5rem;
+}
+
+.form-check label {
+    padding-left: 10px;
+    vertical-align: sub;
+}
+
+button[type="submit"] {
+    color: white;
+    background: #DB3730;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    padding: .5rem .2rem;
+    font-weight: bold;
+}
+
+a {
+    font-size: 1.2em;
+    color: #555658;
+    text-decoration: none;
+}
+
+@media (max-width: 992px) {
+    .register-form {
+        margin-top: 43%;
+    }
+    #register {
+        margin-top: 37%;
+    }
+}
