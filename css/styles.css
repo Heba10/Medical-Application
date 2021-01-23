@@ -207,3 +207,45 @@ label {
 .Link img {
     cursor: pointer;
 }
+
+
+/* Screening */
+
+#Screening {
+    background-color: #2A285A;
+}
+
+.body {
+    margin-top: 15%;
+    width: 90%;
+    background: #171E46;
+    padding-left: 4%;
+}
+
+.body-img {
+    width: 75%;
+    position: relative;
+}
+
+.body-img img {
+    max-width: 100%;
+    height: auto;
+    margin-top: -15%;
+}
+
+.body-img a div {
+    position: absolute;
+    width: 2.5%;
+    height: 3%;
+    cursor: pointer;
+}
+
+.body-img a div.shoulder {
+    left: 15.7%;
+    top: 4.5%;
+}
+
+.body-img a div.head {
+    top: -13.5%;
+    left: 22.5%;
+}
