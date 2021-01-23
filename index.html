@@ -20,7 +20,7 @@
 
             <div class="col-lg-9 col-md-8 col-6">
                 <p>Please fill out the below information:</p>
-                <form>
+                <form name="login" method="post">
                     <div class="register-input">
                         <input type="text" name="username" required class="form-control" placeholder="| Username">
                     </div>
@@ -52,10 +52,28 @@
             </div>
         </div>
     </div>
-
+    <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Login Failed</h5>
+                    <button type="button" class="close" data-dismiss="modal" onclick="closeModal()" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <p>You must register first or check your credentials.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeModal()">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="js/jquery.min.js "></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js "></script>
+    <script src="js/register.js"></script>
 
 
 </body>
