@@ -185,3 +185,25 @@ label {
         min-height: 15.5rem;
     }
 }
+
+#content2 {
+    padding: 0 5rem;
+}
+
+
+/* text-question2  */
+
+.text-question2 {
+    padding-bottom: .5rem;
+    border-bottom: 1.5px solid #23285A;
+    padding-left: 0;
+}
+
+.text-question2 h4 {
+    color: #23285A;
+    padding-left: 0;
+}
+
+.Link img {
+    cursor: pointer;
+}
