@@ -1,5 +1,5 @@
-function closealert() {
-    document.querySelector('.alert').style.display = 'none';
+function closeModal() {
+    document.querySelector('.modal').style.display = 'none';
 }
 
 //registar
@@ -17,7 +17,7 @@ if (registerForm) {
 
             window.location.href = "index.html";
         } else {
-            document.querySelector('.alert').style.display = 'block';
+            document.querySelector('.modal').style.display = 'block';
         }
     })
 
@@ -39,7 +39,7 @@ if (loginForm) {
 
             window.location.href = "form1.html";
         } else {
-            document.querySelector('.alert').style.display = 'block';
+            document.querySelector('.modal').style.display = 'block';
         }
     })
 
