@@ -30,6 +30,28 @@
                     <div class="canvas">
                         <canvas id="Chart" width="600" height="150"></canvas>
                     </div>
+
+                    <div class="row d-flex flex-column align-items-end mx-4" id="continue">
+                        <button class="col-4 mb-2" onclick="showModal()">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Data is saved</h5>
+                    <button type="button" class="close" data-dismiss="modal" onclick="goToResults()" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <p>Every thing stored successfully</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="goToResults()">Close</button>
                 </div>
             </div>
         </div>
@@ -40,7 +62,20 @@
     <script src="js/bootstrap.min.js "></script>
     <script src="js/Chart.min.js"></script>
     <script src="js/chart.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/form3.js">
+        // function showModal() {
+        //     document.querySelector('.modal').style.display = 'block';
+        // }
+
+        // function goToResults() {
+        //     closeModal();
+        //     window.location.href = "form4.html";
+        // }
+
+        // function closeModal() {
+        //     document.querySelector('.modal').style.display = 'none';
+        // }
+    </script>
 
 </body>
 
