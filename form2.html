@@ -29,9 +29,9 @@
                     <div class="row mb-4 pb-3">
                         <div class="col-5 d-flex text-question2 p-0">
                             <h4 class="col-9">ARE YOU TAKING ANY MEDICINE?</h4>
-                            <form class="col-3 p-0">
-                                <div><input type="radio" required value="yes"><label>Yes</label></div>
-                                <div><input type="radio" required value="no"><label>No</label></div>
+                            <form class="col-3 p-0" id="form2" name="form2">
+                                <div><input type="radio" required value="yes" name="Medicine"><label>Yes</label></div>
+                                <div><input type="radio" required value="no" name="Medicine"><label>No</label></div>
                             </form>
                         </div>
                     </div>
@@ -44,7 +44,7 @@
 
                     <div class="row mb-4">
                         <p class="col-5 p-0">In the past 6 months, how many days of work you missed because of your pain?</p>
-                        <input type="number" id="daysMissed" class="col-2 ml-4 form-control" placeholder="Days" min="0" max="180">
+                        <input type="number" id="days" class="col-2 ml-4 form-control" required placeholder="Days" min="0" max="100 " form="form2">
                     </div>
 
                     <div class="row mb-4">
@@ -58,7 +58,7 @@
                     </div>
 
                     <div class="row d-flex flex-column align-items-end mx-4" id="continue">
-                        <button class="col-4 mb-2" type="submit">Continue</button>
+                        <button class="col-4 mb-2" type="submit" form="form2" id="continueBtn" disabled>Continue</button>
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
                     </div>
                 </div>
