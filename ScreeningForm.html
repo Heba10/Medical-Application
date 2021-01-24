@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
-
+    <link rel="stylesheet" href="css/animate.min.css">
 </head>
 
 <body id="Screening">
     <a href="form2.html" class="closeBtn"><i class="fa fa-times" aria-hidden="true"></i></a>
     <div class="body d-flex">
-        <div class="body-img">
-            <img src="img/body.png">
+        <div class="body-img ">
+            <img src="img/body.png ">
             <a onclick="Head()">
                 <div class="head"></div>
             </a>
@@ -23,7 +23,7 @@
             </a>
         </div>
 
-        <div class="choices" id="head">
+        <div class="choices animated slideInRight" id="head">
             <h3>Head</h3>
             <form name="form-3" id="form-3">
                 <div><input type="radio" name="symptom" value="migraine" required checked><label>Migraine</label></div>
@@ -33,7 +33,7 @@
             </form>
         </div>
 
-        <div class="choices" id="shoulder">
+        <div class="choices animated slideInRight" id="shoulder">
             <h3>Shoulder</h3>
             <form>
                 <div><input type="radio" name="symptom" value="tendonInflammation" form="form-3" required><label>Tendon Inflammation</label></div>
