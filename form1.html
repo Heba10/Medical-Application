@@ -33,18 +33,18 @@
                             <h5>Rate your <br> pain intensity <br> on the scale <br>from 0 to 10?</h5>
                         </div>
                         <div class="col-lg-2 col-6 row animated slideInDown " id="choise">
-                            <form class="col-lg-6 col-4 p-0 mt-4 d-flex flex-column">
-                                <div><input type="radio" value="0" required><label>00</label></div>
-                                <div><input type="radio" value="1" required><label>01</label></div>
-                                <div><input type="radio" value="2" required><label>02</label></div>
-                                <div><input type="radio" value="3" required><label>03</label></div>
-                                <div><input type="radio" value="4" required><label>04</label></div>
-                                <div><input type="radio" value="5" required><label>05</label></div>
-                                <div><input type="radio" value="6" required><label>06</label></div>
-                                <div><input type="radio" value="7" required><label>07</label></div>
-                                <div><input type="radio" value="8" required><label>08</label></div>
-                                <div><input type="radio" value="9" required><label>09</label></div>
-                                <div><input type="radio" value="10" required><label>10</label></div>
+                            <form class="col-lg-6 col-4 p-0 mt-4 d-flex flex-column" id="form1" name="form1">
+                                <div><input type="radio" value="0" name="radioBtn" required><label>00</label></div>
+                                <div><input type="radio" value="1" name="radioBtn" required><label>01</label></div>
+                                <div><input type="radio" value="2" name="radioBtn" required><label>02</label></div>
+                                <div><input type="radio" value="3" name="radioBtn" required><label>03</label></div>
+                                <div><input type="radio" value="4" name="radioBtn" required><label>04</label></div>
+                                <div><input type="radio" value="5" name="radioBtn" required><label>05</label></div>
+                                <div><input type="radio" value="6" name="radioBtn" required><label>06</label></div>
+                                <div><input type="radio" value="7" name="radioBtn" required><label>07</label></div>
+                                <div><input type="radio" value="8" name="radioBtn" required><label>08</label></div>
+                                <div><input type="radio" value="9" name="radioBtn" required><label>09</label></div>
+                                <div><input type="radio" value="10" name="radioBtn" required><label>10</label></div>
                             </form>
                             <div class="col-lg-6 col-4 p-0"><img src="img/choise.png"></div>
                         </div>
@@ -132,26 +132,26 @@
                         </div>
 
 
-                        <div class="col-lg-4 col-6 d-flex flex-column mt-5 animated slideInDown" id="frequency">
+                        <div class="col-lg-4 col-6 d-flex flex-column mt-5 animated slideInDown" id="form1" id="frequency">
                             <h5>PAIN FREQUENCY</h5>
                             <p>In the past 6 months, what was the frequency of your pain?</p>
 
 
                             <div class="d-flex flex-column">
-                                <select class="custom-select mb-2" required>
+                                <select class="custom-select mb-2" name="frequency" form="form1" required>
                                     <option value="OtherMonth" selected>Once every other month</option>
                                     <option value="Month">Once every month</option>
                                     <option value="Week">Once every week</option>
                                     <option value="Day">Once day</option>
                                 </select>
 
-                                <textarea placeholder="if you were not able to capture the pain through the diagram, please specify here.." name="frequency-desc" form="form-1"></textarea>
+                                <textarea placeholder="if you were not able to capture the pain through the diagram, please specify here.." name="frequency-desc" form="form1"></textarea>
                             </div>
                         </div>
                     </div>
 
                     <div class="row d-flex flex-column align-items-end mx-4" id="continue">
-                        <button class="col-4 mb-2" type="submit" disabled>Continue</button>
+                        <button class="col-4 mb-2" type="submit" form="form1" id="continueBtn" disabled>Continue</button>
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
                     </div>
                 </div>
@@ -161,7 +161,7 @@
     <script src="js/popper.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/form1.js"></script>
 
 
 
